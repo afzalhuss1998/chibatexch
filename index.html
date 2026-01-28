@@ -16,7 +16,7 @@
   </script>
 
   <style>
-    * {margin:0; padding:0; box-sizing:border-box;}
+    * { margin:0; padding:0; box-sizing:border-box; }
     body {
       background:#000;
       color:#fff;
@@ -35,8 +35,8 @@
       top:0;
       z-index:10;
     }
-    nav .logo img {height:45px;}
-    nav .nav-links {display:flex; align-items:center;}
+    nav .logo img { height:45px; }
+    nav .nav-links { display:flex; align-items:center; }
     nav .nav-links a {
       color:#fff;
       text-decoration:none;
@@ -44,7 +44,7 @@
       font-weight:600;
       transition:.3s;
     }
-    nav .nav-links a:hover {color:#ff0c0c;}
+    nav .nav-links a:hover { color:#ff0c0c; }
     nav .nav-links .cta {
       background:#25D366;
       padding:10px 20px;
@@ -57,15 +57,15 @@
     }
 
     /* Hero */
-    .hero {padding:80px 20px;}
+    .hero { padding:80px 20px; }
     .hero img {
       max-width:1050px;
       width:100%;
       margin:auto;
       display:block;
     }
-    .hero h2 {font-size:28px; margin-top:20px;}
-    .hero h1 {font-size:32px; margin:10px 0; font-weight:800;}
+    .hero h2 { font-size:28px; margin-top:20px; }
+    .hero h1 { font-size:32px; margin:10px 0; font-weight:800; }
     .hero p {
       max-width:700px;
       margin:20px auto;
@@ -83,12 +83,12 @@
       text-decoration:none;
       transition:.3s;
     }
-    .btn.whatsapp {background:#25D366;}
-    .btn.website {background:#ff0c0c;}
-    .btn:hover {transform:scale(1.05);}
+    .btn.whatsapp { background:#25D366; }
+    .btn.website { background:#ff0c0c; }
+    .btn:hover { transform:scale(1.05); }
 
     /* Second Section */
-    .second {padding:80px 20px;}
+    .second { padding:80px 20px; }
     .second img {
       max-width:700px;
       width:100%;
@@ -121,13 +121,87 @@
       box-shadow:0 4px 8px rgba(0,0,0,0.3);
       transition:.3s;
     }
-    .floating img:hover {transform:scale(1.1);}
+    .floating img:hover { transform:scale(1.1); }
 
     @media(max-width:768px){
-      nav {flex-direction:column;}
-      nav .nav-links {margin-top:10px;}
-      .hero h1 {font-size:22px;}
-      .hero h2 {font-size:22px;}
+      nav { flex-direction:column; }
+      nav .nav-links { margin-top:10px; }
+      .hero h1 { font-size:22px; }
+      .hero h2 { font-size:22px; }
     }
   </style>
 </head>
+
+<body>
+
+  <!-- Navbar -->
+  <nav>
+    <div class="logo">
+      <img src="image/logo.png" alt="CHAIBAT Logo">
+    </div>
+    <div class="nav-links">
+      <a href="#">Home</a>
+      <a href="#">Privacy Policy</a>
+      <a href="https://wa.me/447770775981?text=I%20saw%20your%20add%20in%20social%20media%20i%20want%20ID"
+         class="cta" target="_blank">GET YOUR ID</a>
+      <a href="https://www.chaibet.com/?code=MAA013"
+         class="site-btn" target="_blank">VISIT WEBSITE</a>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <img src="image/background1.png" alt="Cricket Players">
+    <h2>Welcome to CHAIBAT</h2>
+    <h1>Fantasy Sports ID Solutions</h1>
+
+    <a class="btn whatsapp" target="_blank"
+       href="https://wa.me/447770775981?text=I%20saw%20your%20add%20in%20social%20media%20i%20want%20ID">
+       GET YOUR ID NOW
+    </a>
+
+    <a class="btn website" target="_blank"
+       href="https://www.chaibet.com/?code=MAA013">
+       VISIT WEBSITE
+    </a>
+
+    <p>
+      Welcome to CHAIBAT, your trusted partner for daily fantasy sports account solutions.
+    </p>
+  </section>
+
+  <!-- Second Section -->
+  <section class="second">
+    <img src="image/background2.png" alt="Cricket Ball & Bat">
+    <h2>Secure and Reliable Online Account Services</h2>
+
+    <a class="btn whatsapp" target="_blank"
+       href="https://wa.me/447770775981?text=I%20saw%20your%20add%20in%20social%20media%20i%20want%20ID">
+       GET YOUR ID NOW
+    </a>
+
+    <a class="btn website" target="_blank"
+       href="https://www.chaibet.com/?code=MAA013">
+       VISIT WEBSITE
+    </a>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>18+ Only. Some states restricted. Please leave if not permitted.</p>
+    <p>No Real Money Involvement</p>
+    <p>© 2025 CHAIBAT</p>
+  </footer>
+
+  <!-- Floating Buttons -->
+  <div class="floating">
+    <a href="https://wa.me/447770775981?text=I%20saw%20your%20add%20in%20social%20media%20i%20want%20ID" target="_blank">
+      <img src="image/whatsapp.png" alt="WhatsApp">
+    </a>
+    <a href="https://www.chaibet.com/?code=MAA013" target="_blank">
+      <img src="image/linkicon.png" alt="Website">
+    </a>
+  </div>
+
+</body>
+</html>
